@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script type="module" src="main.js"></script>
+</head>
+
+<body>
+
+    <div>
+        <div>
+            <h1>Copenhagen Metro</h1>
+            <br>
+            <p>You can travel any where inside Copenhagen with Metro. Please check Metro schedule.</p>
+        </div>
+        <div class="container">
+            <table class="table table-stripped">
+
+                <tbody id="data">
+
+                </tbody>
+            </table>
+        </div>
+        <!-- <div class="train-map-div"> -->
+        <div>
+
+            <img src="metroImg.png" id='mapPosition' class="trainmap">
+            <img src="train1.png" id='trainPositionOne' class="train1">
+            <img src="train1.png" id='trainPositionTwo' class="train2">
+            <img src="train1.png" id='trainPositionThree' class="train3">
+
+        </div>
+        <!-- <div class="stationDiv"></div>/ -->
+        <div class="button">
+
+            <button id="start-train" class="btn btn-outline-secondary">Start train</button>
+            <br>
+            <br>
+            <button id="reset-train" class="btn btn-outline-secondary">Reset train</button>
+            <br>
+            <br>
+            <button id="metroSchedule" class="btn btn-outline-secondary">Metro Schedule</button>
+
+        </div>
+
+        <div>
+            <div id="output"></div>
+            <div id="message"></div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+[{
+        "line": "A",
+        "route": [{
+            "daytime": "Vanløse ↔ Flintholm",
+            "evening": "Vanløse ↔ Lindevang",
+            "weekend": "Vanløse ↔ Flintholm"
+        }]
+    },
+
+
+    {
+        "line": "B",
+        "route": [{
+            "daytime": "Vanløse ↔ Lufthavnen",
+            "evening": "Nørreport ↔ Kastrup",
+            "weekend": "Vanløse ↔ Øresund"
+        }]
+    },
+
+    {
+        "line": "C",
+        "route": [{
+            "daytime": "Amager Strand ↔ Lufthavnen",
+            "evening": "Vanløse ↔ Flintholm",
+            "weekend": "No train available"
+        }]
+    },
+
+
+
+
+    {
+        "line": "D",
+        "route": [{
+            "daytime": "Vanløse ↔ Flintholm",
+            "evening": "Vanløse ↔ Flintholm",
+            "weekend": "Vanløse ↔ Flintholm"
+        }]
+    }
+]
