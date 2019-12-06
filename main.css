@@ -1,0 +1,84 @@
+body {
+    background-image: url("backgroundImg.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: 1300px 280px;
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+    animation-name: example;
+    animation-duration: 10s;
+}
+
+p {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* Standard syntax */
+
+@keyframes example {
+    from {
+        background-color: black;
+    }
+    to {
+        background-color: grey;
+    }
+}
+
+
+/*.bigdiv {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    background: white;
+}*/
+
+.trainmap {
+    position: relative;
+    left: 300px;
+    top: 300px;
+    z-index: 1;
+}
+
+.train1 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 310px;
+    top: 450px;
+    z-index: 2;
+}
+
+.train2 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 680px;
+    top: 700px;
+    z-index: 2;
+}
+
+.train3 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 810px;
+    top: 700px;
+    z-index: 2;
+}
+
+.button {
+    display: block;
+    float: left;
+    margin-left: 10px;
+    border-radius: 50%;
+}
